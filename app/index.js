@@ -17,7 +17,7 @@ module.exports = class extends Generator {
 
 		this.option("npm", {
 			type: "boolean",
-			desc: "Publish to npm"
+			desc: "Use npm's registry"
 		});
 
 		this.option("cli", {
@@ -59,7 +59,7 @@ module.exports = class extends Generator {
 			filter: x => normalizeUrl(x)
 		}, {
 			name: "npm",
-			message: "Would you like to publish the module to npm?",
+			message: "Would you like to use npm's registry?",
 			type: "confirm",
 			default: Boolean(this.options.npm),
 			when: () => this.options.npm === undefined
