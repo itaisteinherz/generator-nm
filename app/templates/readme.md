@@ -6,16 +6,16 @@
 ## Install
 
 ```
-$ npm install <%= moduleName %>
+$ npm install <% if (!npm) { %>https://github.com/<%= githubUsername %>/<% } %><%= moduleName %>
 ```
 
 
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+const <%= camelModuleName %> = require("<%= moduleName %>");
 
-<%= camelModuleName %>('unicorns');
+<%= camelModuleName %>("unicorns");
 //=> 'unicorns & rainbows'
 ```
 
@@ -43,7 +43,7 @@ Lorem ipsum.<% if (cli) { %>
 ## CLI
 
 ```
-$ npm install --global <%= moduleName %>
+$ npm install --global <% if (!npm) { %>https://github.com/<%= githubUsername %>/<% } %><%= moduleName %>
 ```
 
 ```

@@ -1,10 +1,10 @@
-# generator-nm [![Build Status](https://travis-ci.org/sindresorhus/generator-nm.svg?branch=master)](https://travis-ci.org/sindresorhus/generator-nm)
+# generator-nm [![Build Status](https://travis-ci.org/itaisteinherz/generator-nm.svg?branch=master)](https://travis-ci.org/itaisteinherz/generator-nm)
 
-> Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
+> Scaffold out a [node module](https://github.com/itaisteinherz/node-module-boilerplate)
 
 Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
+This is what I use for [my own modules](https://github.com/itaisteinherz?utf8=✓&tab=repositories&q=&type=&language=javascript).
 
 ![](screenshot.png)
 
@@ -12,7 +12,7 @@ This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 ## Install
 
 ```
-$ npm install --global yo generator-nm
+$ npm install --global yo https://github.com/itaisteinherz/generator-nm
 ```
 
 

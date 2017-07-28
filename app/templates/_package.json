@@ -33,6 +33,11 @@
 		"codecov": "^2.2.0",<% } %><% if (nyc) { %>
 		"nyc": "^11.0.0",<% } %>
 		"xo": "^0.18.2"
+	},
+	"xo": {
+		"rules": {
+			"quotes": ["error", "double"]
+		}
 	}<% if (codecov) { %>,
 	"nyc": {
 		"reporter": [
