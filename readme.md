@@ -37,7 +37,7 @@ $ yo nm --help
     --skip-cache    # Do not remember prompt answers                      Default: false
     --skip-install  # Do not automatically install dependencies           Default: false
     --org           # Publish to a GitHub organization account
-		--npm           # Use npm's registry
+    --npm           # Use npm's registry
     --cli           # Add a CLI
     --coverage      # Add code coverage with nyc
     --codecov       # Upload coverage to codecov.io (implies --coverage)
