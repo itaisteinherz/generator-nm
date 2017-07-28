@@ -54,7 +54,10 @@
 			"app/templates/**"
 		],
 		"rules": {
-			"quotes": ["error", "double"]
+			"quotes": [
+				"error",
+				"double"
+			]
 		}
 	}
 }

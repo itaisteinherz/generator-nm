@@ -36,7 +36,10 @@
 	},
 	"xo": {
 		"rules": {
-			"quotes": ["error", "double"]
+			"quotes": [
+				"error",
+				"double"
+			]
 		}
 	}<% if (codecov) { %>,
 	"nyc": {
