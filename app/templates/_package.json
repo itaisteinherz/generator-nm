@@ -38,7 +38,8 @@
 		"rules": {
 			"quotes": [
 				"error",
-				"double"
+				"double",
+				{"allowTemplateLiterals": true}
 			]
 		}
 	}<% if (codecov) { %>,

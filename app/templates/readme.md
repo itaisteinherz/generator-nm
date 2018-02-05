@@ -16,7 +16,7 @@ $ npm install <% if (!npm) { %>https://github.com/<%= githubUsername %>/<% } %><
 const <%= camelModuleName %> = require("<%= moduleName %>");
 
 <%= camelModuleName %>("unicorns");
-//=> 'unicorns & rainbows'
+//=> "unicorns & rainbows"
 ```
 
 
