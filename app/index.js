@@ -35,6 +35,7 @@ module.exports = class extends Generator {
 			desc: "Upload coverage to codecov.io (implies coverage)"
 		});
 	}
+
 	init() {
 		return this.prompt([{
 			name: "moduleName",
@@ -128,9 +129,11 @@ module.exports = class extends Generator {
 			mv("_package.json", "package.json");
 		});
 	}
+
 	git() {
 		this.spawnCommandSync("git", ["init"]);
 	}
+
 	install() {
 		this.installDependencies({bower: false});
 	}
